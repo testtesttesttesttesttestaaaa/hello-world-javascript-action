@@ -1,12 +1,30 @@
 {
   "name": "action-test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  },
+  "dependencies": {
+    "deprecation": "^2.3.1",
+    "is-plain-object": "^5.0.0",
+    "before-after-hook": "^2.2.3",
+    "node-fetch": "^2.6.8",
+    "once": "^1.4.0",
+    "tr46": "^0.0.3",
+    "tunnel": "^0.0.6",
+    "uuid": "^8.3.2",
+    "universal-user-agent": "^6.0.0",
+    "webidl-conversions": "^3.0.1",
+    "whatwg-url": "^5.0.0",
+    "wrappy": "^1.0.2"
+  },
+  "description": ""
 }
